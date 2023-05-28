@@ -3,9 +3,9 @@ name: gha_example:GitHub Action exercise
 # Szablon workflow: Miejsca oznaczone "#" naley uzupełnić 
 
 on:
-  workflow_dispatch:
-#  push:
-#    branches: [ master ]
+#  workflow_dispatch:
+  push:
+    branches: [ master ]
 
 jobs:
   build:
