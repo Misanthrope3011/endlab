@@ -38,6 +38,6 @@ jobs:
           file: ./Dockerfile_prod
           platforms: linux/arm64/v8,linux/amd64
           push: true
-        tags: |
+          tags: |
             798483003/endlab:ghlab10extendedautomate
       
