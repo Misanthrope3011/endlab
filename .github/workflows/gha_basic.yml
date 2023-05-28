@@ -27,5 +27,5 @@ jobs:
           file: ./Dockerfile_prod
           push: true
           tags: |
-            797820935/endlab:testy
+            798483003/endlab:testy
           
