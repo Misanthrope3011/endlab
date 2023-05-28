@@ -35,7 +35,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile_dev
+          file: ./Dockerfile_prod
           platforms: linux/arm64/v8,linux/amd64
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
